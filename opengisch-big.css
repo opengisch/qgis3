@@ -1,55 +1,55 @@
 body {
   font-family: "futura-pt", 'Helvetica';
-  letter-spacing:-5px;
+  letter-spacing: 0px;
   background-size: 100%;
   background-color: #ddefc6;
-  color:#222;
-  margin:0;
-  padding:0;
-  font-weight:bold;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 body.with_logo {
-    background-position-x: right;
-    background-position-y: -100%;
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-image: url("images/copyrighted/openGIS-logo-round-green-no-text-bg-cut-white.svg");
+  background-position-x: right;
+  background-position-y: -100%;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-image: url("images/copyrighted/openGIS-logo-round-green-no-text-bg-cut-white.svg");
 }
 
 body.no_logo {
-    background-image:none;
+  background-image: none;
 }
 
 div.green_text{
-    color: #80CC28;
+  color: #80CC28;
 }
 
 h1, h2, h3, p {
-  margin:0;
+  margin: 0;
 }
 
 em, a {
   font-style:normal;
-  color:#2880cc;
+  color: #2880cc;
 }
 
 a {
   background: #2880cc;
-  color:#fff;
-  text-decoration:none;
+  color: #fff;
+  text-decoration: none;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 div {
-  cursor:pointer;
-  cursor:hand;
-  position:absolute;
-  top:0;
-  left:0;
+  cursor: pointer;
+  cursor: hand;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .title {
@@ -65,4 +65,8 @@ div {
 
 .right {
   float: right;
+}
+
+.white {
+  color: #ddd;
 }
